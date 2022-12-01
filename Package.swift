@@ -15,6 +15,9 @@ let package = Package(
             targets: ["iteratehq"]),
     ],
     dependencies: [
+        
+        .package(url: "https://github.com/RightPoint/Anchorage", "4.5"..<"5.0"),
+
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],
