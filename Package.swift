@@ -15,7 +15,6 @@ let package = Package(
             targets: ["iteratehq"]),
     ],
     dependencies: [
-        
         .package(url: "https://github.com/RightPoint/Anchorage",  .upToNextMajor(from: "5.0")),
 
         // Dependencies declare other packages that this package depends on.
@@ -26,6 +25,9 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "iteratehq",
-            dependencies: [])
+            dependencies: []),
+        .testTarget(
+            name: "iteratehqTests",
+            dependencies: ["iteratehq"]),
     ]
 )
