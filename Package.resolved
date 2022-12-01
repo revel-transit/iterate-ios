@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "mocker",
+      "identity" : "anchorage",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/WeTransfer/Mocker.git",
+      "location" : "https://github.com/RightPoint/Anchorage",
       "state" : {
-        "revision" : "5d86f27a8f80d4ba388bc1a379a3c2289a1f3d18",
-        "version" : "2.6.0"
+        "revision" : "23a6dd0ccf9529d2750d8679a2e74a161cff2f16",
+        "version" : "4.5.0"
       }
     }
   ],
